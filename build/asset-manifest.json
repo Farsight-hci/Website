@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.15f224d4.css",
-    "main.js": "/react-gh-pages/static/js/main.8d9005de.js",
+    "main.css": "/react-gh-pages/static/css/main.9988fb7e.css",
+    "main.js": "/react-gh-pages/static/js/main.309d45e3.js",
     "static/js/787.c4e7f8f9.chunk.js": "/react-gh-pages/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/swarosim.png": "/react-gh-pages/static/media/swarosim.c3d67e9e9ede527d92c1.png",
-    "static/media/crm.png": "/react-gh-pages/static/media/crm.fe30644fefaea5e2a3a2.png",
-    "static/media/portfolio.png": "/react-gh-pages/static/media/portfolio.d64cd9236eb20dfe70e7.png",
+    "static/media/Raleway-Regular.ttf": "/react-gh-pages/static/media/Raleway-Regular.c15b0bf7b86f34335251.ttf",
+    "static/media/Raleway-Light.ttf": "/react-gh-pages/static/media/Raleway-Light.6648e022766877ef6426.ttf",
+    "static/media/Raleway-Bold.ttf": "/react-gh-pages/static/media/Raleway-Bold.757abe402eb07a0ab739.ttf",
+    "static/media/hero-image.jpg": "/react-gh-pages/static/media/hero-image.2a2a6d3e38a8be56b890.jpg",
     "index.html": "/react-gh-pages/index.html",
-    "main.15f224d4.css.map": "/react-gh-pages/static/css/main.15f224d4.css.map",
-    "main.8d9005de.js.map": "/react-gh-pages/static/js/main.8d9005de.js.map",
+    "main.9988fb7e.css.map": "/react-gh-pages/static/css/main.9988fb7e.css.map",
+    "main.309d45e3.js.map": "/react-gh-pages/static/js/main.309d45e3.js.map",
     "787.c4e7f8f9.chunk.js.map": "/react-gh-pages/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15f224d4.css",
-    "static/js/main.8d9005de.js"
+    "static/css/main.9988fb7e.css",
+    "static/js/main.309d45e3.js"
   ]
 }
