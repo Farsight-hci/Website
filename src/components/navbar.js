@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
-    <div className='d-flex justify-content-between px-5 py-4 navbar w-100'>
-        <div className='d-flex display-sm' style={{color: "white"}}>FARSIGHT</div>
-        <a href='https://github.com/Farsight-hci/Main/tree/main/User%20Personas%20e%20Scenari' className='d-flex label-sm align-items-center'>Risorse</a>
+    <div className={'d-flex justify-content-between px-5 py-4 navbar w-100 ' + props?.className}>
+        <Link to={'/Website'} className='d-flex display-sm' style={{color: "white"}}>FARSIGHT</Link>
+        <Link to={'/Website/resources'} className='a d-flex label-sm align-items-center'>Risorse</Link>
     </div>
   )
 }

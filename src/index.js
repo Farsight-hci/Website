@@ -1,16 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {createBrowserRouter,RouterProvider} from "react-router-dom";
+import './index.css';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/raleway/static/Raleway-Bold.ttf'
 import './assets/raleway/static/Raleway-Light.ttf'
 import './assets/raleway/static/Raleway-Regular.ttf'
+import Home from './pages/home';
+import Resources from './pages/resources';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home/>,
+  },
+  {
+    path: "/Website",
+    element: <Home/>,
+  },
+  {
+    path: "/Website/resources",
+    element: <Resources/>
+  }
+]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
