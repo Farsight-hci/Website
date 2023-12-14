@@ -1,0 +1,19 @@
+.fadeUp{
+    animation: fadeInFromNone 1s;
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+
+    1% {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
